@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " PB",
+    " B ",
+    "H  "
+  ],
+  "key": {
+    "P": [
+      {
+        "type": "forge:nbt",
+        "item": "minecraft:splash_potion",
+        "count": 1,
+        "nbt": "{Potion:\"minecraft:swiftness\"}"
+      },
+      {
+        "type": "forge:nbt",
+        "item": "minecraft:splash_potion",
+        "count": 1,
+        "nbt": "{Potion:\"minecraft:long_swiftness\"}"
+      }
+    ],
+    "B": {
+      "item": "minecraft:gold_block"
+    },
+    "H": {
+      "item": "skyswords:gold_handle"
+    }
+  },
+  "result": {
+    "item": "skyswords:rogue_sword",
+    "count": 1
+  }
+}

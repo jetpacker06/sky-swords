@@ -1,0 +1,23 @@
+{
+  "//": "Effects",
+  "effect.skyswords.rogue_speed": "Rogue Speed",
+
+  "//1": "Swords",
+  "item.skyswords.aspect_of_the_jerry": "Aspect Of The Jerry",
+  "item.skyswords.rogue_sword": "Rogue Sword",
+  "item.skyswords.spider_sword": "Spider Sword",
+  "item.skyswords.undead_sword": "Undead Sword",
+  "item.skyswords.end_sword": "End Sword",
+  "item.skyswords.flaming_sword": "Flaming Sword",
+
+  "//2": "Misc Items",
+  "item.skyswords.gold_handle": "Gold Handle",
+
+  "//3": "Tooltips",
+  "tooltip.aspect_of_the_jerry": "Right click ability: Parley\nChannel your inner Jerry.",
+  "tooltip.rogue_sword": "Right click ability: Rogue Speed\nGrants a speed boost for 30s.",
+  "tooltip.spider_sword": "Deals double damage to arthropods.",
+  "tooltip.undead_sword": "Deals double damage to undead mobs.",
+  "tooltip.end_sword": "Deals double damage to End mobs.",
+  "tooltip.flaming_sword": "Sets enemies on fire for 3 seconds."
+}
