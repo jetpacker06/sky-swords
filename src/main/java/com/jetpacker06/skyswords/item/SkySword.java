@@ -8,6 +8,7 @@ import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.Level;
+import net.minecraftforge.event.entity.living.LivingHurtEvent;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -22,11 +23,14 @@ public abstract class SkySword extends SwordItem {
     public void appendHoverText(@NotNull ItemStack pStack, @Nullable Level pLevel,
                                 @NotNull List<Component> pTooltipComponents, @NotNull TooltipFlag pIsAdvanced) {
         if (this.getTooltipKey() != null) {
-            pTooltipComponents.add(new TextComponent("§8").append(
+            pTooltipComponents.add(new TextComponent("").append(
                     new TranslatableComponent(this.getTooltipKey())
             ));
         }
     }
     @Nullable
     public abstract String getTooltipKey();
+
+    public void handleAttack(LivingHurtEvent event) {}
 }
+//"§8"

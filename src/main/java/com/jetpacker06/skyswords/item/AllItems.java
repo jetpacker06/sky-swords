@@ -30,8 +30,10 @@ public class AllItems {
            () -> new UndeadSwordItem(3, -2.4F, properties));
    public static final RegistryObject<Item> END_SWORD = ITEMS.register("end_sword",
            () -> new EndSwordItem(3, -2.4F, properties));
-   public static final RegistryObject<Item> FLAMING_SWORD = ITEMS.register("flaming_sword",
-           () -> new FlamingSwordItem(3, -2.4F, properties));
+    public static final RegistryObject<Item> FLAMING_SWORD = ITEMS.register("flaming_sword",
+            () -> new FlamingSwordItem(3, -2.4F, properties));
+    public static final RegistryObject<Item> PRISMARINE_BLADE = ITEMS.register("prismarine_blade",
+            () -> new PrismarineBladeItem(3, -2.4F, properties));
 
     public static final RegistryObject<Item> GOLD_HANDLE = ingredient("gold_handle");
 

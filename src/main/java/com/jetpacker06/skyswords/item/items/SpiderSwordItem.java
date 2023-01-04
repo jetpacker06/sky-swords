@@ -11,7 +11,9 @@ public class SpiderSwordItem extends SkySword {
     public SpiderSwordItem(int pAttackDamageModifier, float pAttackSpeedModifier, Properties pProperties) {
         super(Tiers.IRON, pAttackDamageModifier, pAttackSpeedModifier, pProperties);
     }
-    public static void handleAttack(LivingHurtEvent event) {
+
+    @Override
+    public void handleAttack(LivingHurtEvent event) {
         if (!(event.getEntity() instanceof LivingEntity target)) {
             return;
         }
